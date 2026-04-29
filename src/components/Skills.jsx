@@ -19,6 +19,10 @@ const skillsData = [
     skills: ["Git", "Docker", "Postman"]
   },
   {
+    category: "Cloud",
+    skills: ["Render", "Vercel", "Aiven - Relational Database"]
+  },
+  {
     category: "Other",
     skills: ["REST APIs", "System Design", "Data Validation", "ELT pipelines"]
   }
