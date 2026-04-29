@@ -51,12 +51,25 @@ export default function Contact() {
                   <Mail size={20} />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Email</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Gmail - Primary Mail </p>
                   <a href="mailto:kalaiarasanpvs@gmail.com" className="text-lg font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                     kalaiarasanpvs@gmail.com
                   </a>
+               </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center">
+                  <Mail size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Outlook - Secondry Mail </p> 
+                  <a href="mailto:kalai.pvs@outlook.com" className="text-lg font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                    kalai.pvs@outlook.com
+                  </a>
                 </div>
               </div>
+              
               
               {/* <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center">
