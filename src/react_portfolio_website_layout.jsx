@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import GithubCalendar from "./components/GithubCalendar";
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -36,8 +37,9 @@ export default function Portfolio() {
       <main>
         <Hero />
         <About />
-        <Skills />
         <Experience />
+        <Skills />
+        <GithubCalendar />
         <Projects />
         <Contact />
       </main>
