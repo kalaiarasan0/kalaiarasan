@@ -1,21 +1,17 @@
 /* Cleared to avoid conflicts with Tailwind CSS and Portfolio layout */
 
 @layer components {
-  .react-activity-calendar__scroll-container {
-    overflow-x: hidden !important;
-  }
+    .react-activity-calendar__scroll-container {
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+    }
 }
 
-
-/* .scroll {
-overflow-y: hidden !important;
-} */
-
 * {
-  scrollbar-width: none;
-  scroll-behavior: smooth;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
